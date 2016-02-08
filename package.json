@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/mankdev/webpack-sample#readme",
   "dependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1"
   }

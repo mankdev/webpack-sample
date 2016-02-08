@@ -1,5 +1,5 @@
 var Controls = {
-	create: function(type, text) {
+	create(type, text) {
 		console.info('Creating ' + type + ' with text "' + text + '"');
 	}
 };

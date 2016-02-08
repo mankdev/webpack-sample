@@ -1,19 +1,18 @@
-var Controls = require('./controls.js');
+import Controls from './controls.js';
 
-var Popup = (function() {
-	return function Popup() {
+class Popup {
+	constructor() {
 		Controls.create('button', 'OK');
-
-		return {
-			show: function() {
-				console.info('popup shown');
-			},
-
-			hide: function() {
-				console.info('popup hidden');
-			}
-		}
 	}
-})();
+
+	show() {
+		console.info('popup shown');
+	}
+
+	hide() {
+		console.info('popup hidden');
+	}
+
+}
 
 module.exports = Popup;
