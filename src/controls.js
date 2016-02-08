@@ -1,5 +1,5 @@
 var Controls = {
-	init: function() {
-		console.log('controls inited');
+	create: function(type, text) {
+		console.info('Creating ' + type + ' with text "' + text + '"');
 	}
 };
