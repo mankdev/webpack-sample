@@ -3,3 +3,5 @@ var Controls = {
 		console.info('Creating ' + type + ' with text "' + text + '"');
 	}
 };
+
+module.exports = Controls;

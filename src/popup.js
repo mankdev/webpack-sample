@@ -1,15 +1,19 @@
+var Controls = require('./controls.js');
+
 var Popup = (function() {
 	return function Popup() {
 		Controls.create('button', 'OK');
 
 		return {
 			show: function() {
-				console.log('popup shown');
+				console.info('popup shown');
 			},
 
 			hide: function() {
-				console.log('popup hidden');
+				console.info('popup hidden');
 			}
 		}
 	}
 })();
+
+module.exports = Popup;

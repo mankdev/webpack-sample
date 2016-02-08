@@ -1,3 +1,5 @@
+var Popup = require('./popup.js');
+
 (function(){
 	var btn = document.getElementById('btn');
 
