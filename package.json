@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack -w"
+    "webpack": "webpack -w",
+    "webpack-dev-server": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/mankdev/webpack-sample#readme",
   "dependencies": {
-    "webpack": "^1.12.13"
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
   }
 }
