@@ -1,4 +1,6 @@
-import Popup from './popup.js';
+import styles from './main.styl';
+
+import Popup from './popup/popup.js';
 
 (function(){
 	var btn = document.getElementById('btn');

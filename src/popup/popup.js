@@ -1,4 +1,4 @@
-import Controls from './controls.js';
+import Controls from './../controls/controls.js';
 
 class Popup {
 	constructor() {

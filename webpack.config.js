@@ -10,10 +10,12 @@ module.exports = {
 	module: {
 		loaders: [
 			{
-				test: /\.js?$/,
-				loaders: [
-					'babel?presets[]=es2015'
-				]
+				test: /\.js$/,
+				loader: 'babel?presets[]=es2015'
+			},
+			{
+				test: /\.styl$/,
+				loader: 'style!css!stylus'
 			}
 		]
 	}
